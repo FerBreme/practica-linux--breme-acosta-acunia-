@@ -2,3 +2,13 @@
     inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
     inet 192.168.0.195/24 metric 100 brd 192.168.0.255 scope global dynamic enp0s8
 
+== ip de la vm - acunia ==
+    inet6 ::1/128 scope host 
+    inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+    inet6 fd17:625c:f037:2:0:dbff:fee4:5391/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::dbff:fee4:5391/64 scope link 
+    inet 192.168.0.12/24 metric 100 brd 192.168.0.255 scope global dynamic enp0s8
+    inet6 2800:810:489:f79:ac5c:fa51:d664:6cdb/128 scope global dynamic noprefixroute 
+    inet6 2800:810:489:f79:a00:27ff:fe20:3173/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::a00:27ff:fe20:3173/64 scope link 
+ 
