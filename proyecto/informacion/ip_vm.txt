@@ -1,0 +1,4 @@
+======== IP DE LA VM - BREME =========
+    inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+    inet 192.168.0.195/24 metric 100 brd 192.168.0.255 scope global dynamic enp0s8
+
