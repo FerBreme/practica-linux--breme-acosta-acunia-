@@ -1,0 +1,12 @@
+========= INFORMACION DE USUARIOS Y GRUPOS - BREME ============
+Usuario actual:
+vagrant
+Grupos del usuario:
+vagrant
+ID del usuario:
+uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant)
+Usuarios del sistema:
+estuadiante1:x:1002:1002::/home/estuadiante1:/bin/sh
+estudiante2:x:1003:1003::/home/estudiante2:/bin/sh
+estudiante3:x:1004:1004::/home/estudiante3:/bin/sh
+

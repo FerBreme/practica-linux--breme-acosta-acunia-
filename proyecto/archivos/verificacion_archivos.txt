@@ -1,0 +1,33 @@
+======= VERIFICACION DE ARCHIVOS - BREME ===========
+Estructura de directorios creada:
+/mnt/lvm_storage_breme
+/mnt/lvm_storage_breme/temporal
+/mnt/lvm_storage_breme/respaldos
+/mnt/lvm_storage_breme/proyectos
+/mnt/lvm_storage_breme/proyectos/activos
+/mnt/lvm_storage_breme/proyectos/archivados
+/mnt/lvm_storage_breme/lost+found
+/mnt/lvm_storage_breme
+/mnt/lvm_storage_breme/temporal
+/mnt/lvm_storage_breme/respaldos
+/mnt/lvm_storage_breme/proyectos
+/mnt/lvm_storage_breme/proyectos/activos
+/mnt/lvm_storage_breme/proyectos/archivados
+/mnt/lvm_storage_breme/lost+found
+Archivos en cada directorio:
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/temporal/documento_03.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/temporal/documento_02.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/temporal/documento_01.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/temporal/documento_04.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/temporal/documento_05.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:56 /mnt/lvm_storage_breme/respaldos/documento_10.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:56 /mnt/lvm_storage_breme/respaldos/documento_09.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:55 /mnt/lvm_storage_breme/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:55 /mnt/lvm_storage_breme/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:55 /mnt/lvm_storage_breme/proyectos/activos/documento_01.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:55 /mnt/lvm_storage_breme/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:55 /mnt/lvm_storage_breme/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/proyectos/archivados/documento_06.txt
+-rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/proyectos/archivados/documento_07.txt
+

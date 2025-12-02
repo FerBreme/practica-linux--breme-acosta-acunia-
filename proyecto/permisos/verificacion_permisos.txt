@@ -1,0 +1,10 @@
+========= VERIFICACION DE PERMISOS - BREME ============
+Archivos en mi directorio personal:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Nov 30 02:53 .
+drwxr-x--- 9 vagrant vagrant 4096 Dec  2 04:23 ..
+-rw------- 1 vagrant vagrant    0 Nov 30 02:50 privado.txt
+-rw-r--r-- 1 vagrant vagrant    0 Nov 30 02:53 publico.txt
+Informacion del grupo equipotrabajo:
+equipotrabajo:x:1005:estuadiante1,estudiante2,estudiante3,vagrant
+
