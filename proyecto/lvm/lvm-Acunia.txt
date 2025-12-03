@@ -1,0 +1,29 @@
+==Verificacion de LVM - Acuña==
+==Espacio en disco sin lvm montado==
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           197M 1004K  196M   1% /run
+/dev/sda1        39G  1.8G   37G   5% /
+tmpfs           982M     0  982M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+vagrant         221G  196G   25G  89% /vagrant
+tmpfs           197M  4.0K  197M   1% /run/user/1000
+ 
+== Espacio en disco con lvm montado==
+Filesystem                                     Size  Used Avail Use% Mounted on
+tmpfs                                          197M 1004K  196M   1% /run
+/dev/sda1                                       39G  1.8G   37G   5% /
+tmpfs                                          982M     0  982M   0% /dev/shm
+tmpfs                                          5.0M     0  5.0M   0% /run/lock
+vagrant                                        221G  196G   25G  89% /vagrant
+tmpfs                                          197M  4.0K  197M   1% /run/user/1000
+/dev/mapper/vg_datos_Acunia-lv_storage_Acunia  1.5G   24K  1.4G   1% /mnt/lvm_storage_Acunia
+ 
+==Escaneo de logical volumes==
+  ACTIVE            '/dev/vg_datos_Acunia/lv_storage_Acunia' [1.50 GiB] inherit
+==Escaneo de physical volumes==
+  PV /dev/sdc   VG vg_datos_Acunia   lvm2 [<2.00 GiB / 508.00 MiB free]
+  Total: 1 [<2.00 GiB] / in use: 1 [<2.00 GiB] / in no VG: 0 [0   ]
+ 
+==Escaneo de volume groups==
+  Found volume group "vg_datos_Acunia" using metadata type lvm2
+ 

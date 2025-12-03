@@ -31,3 +31,29 @@ Archivos en cada directorio:
 -rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/proyectos/archivados/documento_06.txt
 -rw-r--r-- 1 root root 27 Dec  2 06:53 /mnt/lvm_storage_breme/proyectos/archivados/documento_07.txt
 
+==Verificacion de archivos - Acuña==
+Estructura de directorios creada:
+/mnt/lvm_storage_Acunia
+/mnt/lvm_storage_Acunia/temporal
+/mnt/lvm_storage_Acunia/respaldos
+/mnt/lvm_storage_Acunia/lost+found
+/mnt/lvm_storage_Acunia/proyectos
+/mnt/lvm_storage_Acunia/proyectos/archivados
+/mnt/lvm_storage_Acunia/proyectos/activos
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:14 /mnt/lvm_storage_Acunia/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:14 /mnt/lvm_storage_Acunia/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:11 /mnt/lvm_storage_Acunia/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:13 /mnt/lvm_storage_Acunia/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:13 /mnt/lvm_storage_Acunia/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:13 /mnt/lvm_storage_Acunia/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:13 /mnt/lvm_storage_Acunia/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Dec  3 00:13 /mnt/lvm_storage_Acunia/proyectos/activos/documento_03.txt
+
