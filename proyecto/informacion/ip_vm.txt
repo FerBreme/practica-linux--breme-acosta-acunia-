@@ -12,3 +12,6 @@
     inet6 2800:810:489:f79:a00:27ff:fe20:3173/64 scope global dynamic mngtmpaddr noprefixroute 
     inet6 fe80::a00:27ff:fe20:3173/64 scope link 
  
+==========IP DE LA VM - ACOSTA ==========
+    inet 10.0.2.15/24 metric 100 brd 10.0.2.255 scope global dynamic enp0s3
+    inet 192.168.1.33/24 metric 100 brd 192.168.1.255 scope global dynamic enp0s8
