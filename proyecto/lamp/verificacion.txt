@@ -1,0 +1,57 @@
+==Verificacion de servidor LAMP - Acuña==
+==Versiones instaladas==
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2025-08-11T12:10:10
+mysql  Ver 8.0.44-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.1.2, Copyright (c) Zend Technologies
+    with Zend OPcache v8.1.2-1ubuntu2.22, Copyright (c), by Zend Technologies
+
+==Estado de servicios==
+× apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Fri 2025-12-05 02:29:42 UTC; 17min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+        CPU: 31ms
+
+Dec 05 02:29:42 linux-practice apachectl[758]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.2.1. Set the 'ServerName' directive globally to suppress this message
+Dec 05 02:29:42 linux-practice apachectl[758]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Dec 05 02:29:42 linux-practice apachectl[758]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Dec 05 02:29:42 linux-practice apachectl[758]: no listening sockets available, shutting down
+Dec 05 02:29:42 linux-practice apachectl[758]: AH00015: Unable to open logs
+Dec 05 02:29:42 linux-practice apachectl[711]: Action 'start' failed.
+Dec 05 02:29:42 linux-practice apachectl[711]: The Apache error log may have more information.
+Dec 05 02:29:42 linux-practice systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+Dec 05 02:29:42 linux-practice systemd[1]: apache2.service: Failed with result 'exit-code'.
+Dec 05 02:29:42 linux-practice systemd[1]: Failed to start The Apache HTTP Server.
+
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-12-05 02:29:46 UTC; 17min ago
+   Main PID: 1056 (mysqld)
+     Status: "Server is operational"
+      Tasks: 37 (limit: 2307)
+     Memory: 425.2M
+        CPU: 5.459s
+     CGroup: /system.slice/mysql.service
+             └─1056 /usr/sbin/mysqld
+
+Dec 05 02:29:42 linux-practice systemd[1]: Starting MySQL Community Server...
+Dec 05 02:29:46 linux-practice systemd[1]: Started MySQL Community Server.
+
+==Puertos de escucha==
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      1056/mysqld         
+tcp        0      0 127.0.0.1:33060         0.0.0.0:*               LISTEN      1056/mysqld         
+
+==Archivos web creados==
+total 40
+drwxr-xr-x 2 www-data www-data 4096 Dec  5 02:19 .
+drwxr-xr-x 3 root     root     4096 Dec  3 00:40 ..
+-rwxr-xr-x 1 www-data www-data 5154 Dec  5 01:14 index.html
+-rwxr-xr-x 1 www-data www-data 4898 Dec  5 00:53 index.html.save
+-rwxr-xr-x 1 www-data www-data  612 Dec  3 00:40 index.nginx-debian.html
+-rwxr-xr-x 1 www-data www-data   21 Dec  5 01:54 info.php
+-rwxr-xr-x 1 www-data www-data    9 Dec  5 01:21 info.php.save
+-rwxr-xr-x 1 www-data www-data  551 Dec  5 02:19 test_db.php
+
